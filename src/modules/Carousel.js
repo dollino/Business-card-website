@@ -1,6 +1,7 @@
 import { useState, useEffect, Children, cloneElement } from "react";
 import "../App.scss";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import React from 'react';
 
 export const Carusel = ({ children }) => {
   const [pages, setPages] = useState([]);
