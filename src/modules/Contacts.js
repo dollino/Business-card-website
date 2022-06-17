@@ -1,6 +1,7 @@
 import { FaSkype, FaLinkedin, FaTelegram, FaGithub } from "react-icons/fa";
 import { MdPersonSearch, MdMail } from "react-icons/md";
 import "../App.scss";
+import React from 'react';
 
 export const Contacts = () => {
   return (

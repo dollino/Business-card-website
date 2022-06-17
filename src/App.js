@@ -8,6 +8,7 @@ import { Skills } from "./modules/Skills.js";
 import { Contacts } from "./modules/Contacts.js";
 import "./App.scss";
 import logo from ".//components/logo.jpg";
+import React from 'react';
 
 const TeleportAbout = () => {
   document.mainWindow.scrollX(-100, 0);

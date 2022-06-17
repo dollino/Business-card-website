@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   FaGithub,
   FaDev,
@@ -39,10 +40,12 @@ export const Skills = () => {
       <div className="moreSkills">
         <div className="listMSkills">
           <div className="oneColumn">
-            
+            <h1>Высокий уровень</h1>
+            <div className="skillsField"></div>
           </div>
           <div className="twoColumn">
-            
+            <h1>Высокий уровень</h1>
+            <div className="skillsField"></div>
           </div>
         </div>
       </div>
